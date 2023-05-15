@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+
+:root {
+  --cor: #ebe5c5;
+  --cor0: #f2f2f2;
+  --cor1: #a4a6a6;
+  --cor2: #8d363f;
+  --cor3: #2fa866;
+  --cor4: #404040;
+  --cor5: #000000;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #404040;
+}
+
+header {
+  background-color: #000000;
+  min-height: 90px;
+}
+
+header > img {
+  margin: 13px 0px 0px 850px;
+ 
+}
+nav {
+  background-color: #000000;
+  padding: 10px;
+  box-shadow: 1px 6px 14px 0px black;
+}
+nav > a {
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.1em;
+  margin: 0px 37px 0px 0px;
+  color: white;
+  font-family: "Concert One", cursive;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #8d363f;
+}
+
+main {
+  background-color: white;
+  background-color: white;
+  min-width: 280px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 1px 6px 19px 5px black;
+}
+
+
+main h1{
+    font-weight: bolder;
+    text-align: center;
+    font-family: "=Bebas Neue", cursive;
+    padding-bottom: 10px;
+}
+
+
+main>p{
+    padding: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+}
+
+main>h3{
+
+    background-image: linear-gradient(to right, #8d363f, transparent);
+}
+
+.moto{
+    text-align: center;
+    padding:18px 0px 35px 0px;
+}
+
+.veiculos{
+    padding: 14px 0px 26px 0px;
+    text-align: center;
+}
+
+main > img{
+    width: 100%;
+}
+
+main strong{
+    color: #790c17;
+}
+
+
+main a:visited{
+  color: #8d363f;
+}
+
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: "\2714\00A0";
+    
+    text-align: justify;
+    
+}
+
+aside h2{
+    padding: 15px;
+}
+
+aside p{
+    padding: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 1em;
+   
+}
+
+aside ul{ background-color: #8d363f60;
+padding: 20px;}
+
+
+.elenco{
+
+padding: 5px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+footer>a{
+    color: white;
+    text-decoration: none;
+}
+
+footer>a:hover{
+    color: #8d363f;
+
+}
